@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(205, 205, 205)
+}
+.head{
+    font-size: 25px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:300px;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 200px;
+}
+.posts img{
+    width:300px;
+    object-fit: cover;
+}
+.post1{
+    background-color: white;
+    height: 550px;
+    width:300px;
+    box-shadow: 10px;
+    font-size: 18px;
+    padding: 20px;
+}
+.post2{
+    background-color: white;
+    height: 450px;
+    width:330px;
+    box-shadow: 10px;
+    font-size: 18px;
+}
+.post3{
+    background-color: white;
+    height: 420px;
+    width:300px;
+    box-shadow: 10px;
+    font-size: 18px;
+}
+iframe{
+    width: 100%;
+}
+.inf p{
+    margin-bottom: 30px;
+}
+.inf{
+    padding-left: 20px;
+}
+.tags a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(41, 40, 40);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.start button{
+    font-size: 35px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.start{
+    text-align: center;
+    margin-top: 50px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+}
+hr{
+    margin-top: 100px;
+}
+.menu{
+    background-color: black;
+    color: white;
+    height: 350px;
+    margin-top: 50px;
+
+}
+.icon h3{
+    color: white;
+    margin-left: 50px;
+}
+.buy a{
+    text-decoration: none;
+    color:white;
+    position: relative;
+    top: 5px;
+}
+.buy button{
+    background-color: rgba(133, 206, 99, 1);
+    border: none;
+    width: 90px;
+    height: 30px;
+    display: grid;
+    position: relative;
+    top: 9px;
+    text-align: center;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+}
+.old a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.old{
+    text-align: center;
+    position: relative;
+    right: 350px;
+    bottom: 150px;
+}
